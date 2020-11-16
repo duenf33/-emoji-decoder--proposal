@@ -49,3 +49,16 @@ This properties will help the user search for the suitable translation of each e
 The main property will by the `name` property, which will be the main one to be use to look up for the right match of the `symbol` and `name` of the `emoji` input.<br>
 
 ## **Stretch Goals**<br>
+
+One of the very important and valuable features in an app its being able to look up all the categories that is needed to show the exact translation of each `emoji`.<br>
+The user will be able to look up all the categories `emoji`s by entering in the search box and in the terminal will display the symbol and name in order to see the right wording as shown below:
+
+```javascript
+> node main.js search category face
+👽 alien
+👶 baby
+.
+.
+.
+[etc...]
+```
